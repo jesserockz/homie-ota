@@ -185,6 +185,14 @@ def png(filename):
 def javascript(filename):
     return static_file(filename, root='static/js')
 
+@get('/favicon.ico')
+def favicon():
+    return static_file('favicon.ico', root='static/img')
+
+@get('/setup')
+def setup():
+    return static_file('setup.html', root='static')
+
 @get('/log')
 def showlog():
     logdata = open(LOGFILE, "r").read()

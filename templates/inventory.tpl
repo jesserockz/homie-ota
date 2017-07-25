@@ -13,7 +13,7 @@
 <h2>Homie device inventory</h2>
 
 <p>
-[<a href="{{base_url}}/firmware">Homie device firmware</a>] [<a href="{{base_url}}/log">Log</a>]
+[<a href="{{base_url}}/firmware">Homie device firmware</a>] [<a href="{{base_url}}/log">Log</a>] [<a href="{{base_url}}/setup">Device Configuration</a>]
 </p>
 
 <h3>Registered devices</h3>
